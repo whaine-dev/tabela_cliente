@@ -102,14 +102,6 @@ INSERT INTO pedido_produto VALUES
 (NULL, "5", "5", "3"),
 (NULL, "5", "1", "3");
 UPDATE pedido
-SET id_pedido = CASE
-	WHEN id_pedido = 6 THEN 1
-    WHEN id_pedido = 7 THEN 2
-    WHEN id_pedido = 8 THEN 3
-    WHEN id_pedido = 9 THEN 4
-    WHEN id_pedido = 10 THEN 5
-    END
-WHERE id_pedido IN (6, 7, 8, 9, 10);
 
 SELECT * FROM pedido_produto
 INNER JOIN pedido 
