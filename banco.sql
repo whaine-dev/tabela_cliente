@@ -11,11 +11,11 @@ ALTER TABLE cliente
 ADD COLUMN cpf_cliente VARCHAR(14) NOT NULL UNIQUE;
 
 INSERT INTO cliente VALUES
-(NULL, "Cauê Rodrigo Nunes","459.505.324-06"),
-(NULL, "Emanuelly Vanessa Nunes","521.691.154-55"),
-(NULL, "Eduarda Daiane Assis","184.569.694-86"),
-(NULL, "Vicente Sérgio Almada","507.498.284-71"),
-(NULL, "Gael Arthur Noah Farias","555.216.934-40");
+(NULL, "Cauê Rodrigo Nunes","459.000.324-00"),
+(NULL, "Emanuelly Vanessa Nunes","521.000.154-00"),
+(NULL, "Eduarda Daiane Assis","184.000.695-00"),
+(NULL, "Vicente Sérgio Almada","507.000.284-00"),
+(NULL, "Gael Arthur Noah Farias","555.000.934-00");
 
 SELECT * FROM CLIENTE;
 
